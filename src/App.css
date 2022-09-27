@@ -1,0 +1,23 @@
+body{
+   background: #FF512F;  
+   background: -webkit-linear-gradient(to right, #F09819, #FF512F);
+   background: linear-gradient(to right, #F09819, #FF512F);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.page-title {
+   text-align: center;
+}
+
+.components {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: #ffffff;
+   width: auto;
+   position: relative;
+   padding: 20px;
+}

@@ -1,0 +1,43 @@
+.title {
+   text-align: center;
+}
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 1px solid grey;
+}
+
+.image img {
+   height: 250px;
+   width: 250px;
+   margin-left: 10px;
+}
+.form div {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+}
+.form div > label , input{
+   margin-bottom: 5px;
+}
+
+.form div > label {
+   font-size: large;
+   font-weight: 500px;
+}
+
+.form div > input {
+   padding: 8px;
+   border: 0.5px solid grey;
+   border-radius: 5px;
+}
+.button {
+   padding: 6px 10px;
+   margin-left: 60px;
+   border: none;
+   background-color: #f58120;
+   color: #ffffff;
+   border-radius: 5px;
+   cursor: pointer;
+}
